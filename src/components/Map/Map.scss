@@ -1,13 +1,18 @@
 @import '../../styles/variables.scss';
 .craft {
     color: $orange-text;
-    font-size: $gutter-bigText;
+    font-size: 1.3rem;
     width: 5rem;
     height: 5rem;
-    background-color: $white-text;
+    background-color: $black-bg;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     box-shadow: 0px 0px 8px 8px rgba($orange-text, 0.6);
+}
+.map {
+    border: 1px solid rgba($blue-bg, 0.7);
+    border-radius: 3rem;
+    box-shadow: 0px 0px 2rem 0px rgba($blue-bg, 0.7);
 }

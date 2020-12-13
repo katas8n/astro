@@ -17,6 +17,7 @@ const Map = ({ latitude, longitude }) => {
             width="1000px"
             height="600px"
             mapStyle="mapbox://styles/kirs8n/ckikom9oi10f617nrh553cj0a"
+            className="map"
         >
             <Marker {...convertedPosition}>
                 <div className="craft">Craft</div>
