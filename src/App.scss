@@ -1,0 +1,50 @@
+@import './styles/variables.scss';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-image: $purple-bg;
+}
+.astronaut {
+    display: flex;
+    margin: 0.5rem;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        &-img {
+            width: 4rem;
+            height: 4rem;
+            border-radius: 50%;
+            margin: 0.2rem;
+        }
+    }
+    &__img {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        margin: 0.2rem;
+    }
+    &-name {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        font-size: 1.1rem;
+    }
+    &-total {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        font-size: 1.1rem;
+    }
+}
+.map-wrapper {
+    margin: 0 auto;
+}

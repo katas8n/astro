@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+
+.footer {
+    width: 100%;
+    height: $gutter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    background-color: $black-bg;
+    color: $blue-text;
+    font-family: $font;
+}

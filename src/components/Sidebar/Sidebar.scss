@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: $white-bg;
+    border-radius: 12px;
+    margin-right: 0.25rem;
+}

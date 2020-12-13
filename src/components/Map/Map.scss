@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+.craft {
+    color: $orange-text;
+    font-size: $gutter-bigText;
+    width: 5rem;
+    height: 5rem;
+    background-color: $white-text;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px 8px rgba($orange-text, 0.6);
+}

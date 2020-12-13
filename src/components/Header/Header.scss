@@ -1,0 +1,32 @@
+@import '../../styles/variables.scss';
+
+.header-map {
+    color: $blue-text;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $blue-text;
+    font-family: $font;
+    font-size: 1.6rem;
+    background-color: $black-bg;
+    height: $gutter;
+    &--time {
+        display: flex;
+        height: $gutter;
+        text-align: center;
+        align-items: center;
+        width: 285px;
+        border-left: 1px solid $blue-text;
+        background-color: $black-bg;
+        font-size: 1.2rem;
+    }
+    &--info {
+        margin: 0 auto;
+    }
+    &__latitude {
+        color: $orange-text;
+    }
+    &__longitude {
+        color: $orange-text;
+    }
+}
